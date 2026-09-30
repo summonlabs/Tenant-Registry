@@ -1,0 +1,21 @@
+Tenant Registry
+Copyright 2026 Summon Software Labs.
+
+This product includes software developed by Summon Software Labs.
+
+The Tenant Registry source tree contains no third-party source code. It builds
+and tests with a C++20 compiler and CMake alone, with no network access and no
+downloaded dependencies. The only non-standard-library interfaces it uses are
+operating-system facilities for file creation, file replacement, file locking
+and cache flushing; those are provided by the host operating system and are not
+distributed with this repository.
+
+Tenant Registry does not collect or transmit any telemetry. Every record it
+writes is written to local files chosen by the operator and never leaves the
+machine running the software.
+
+Tenant Registry accepts contributions from individuals and organizations on the
+terms of the Apache License 2.0 without requiring a Contributor License
+Agreement (CLA). See CONTRIBUTING.md for contribution guidance.
+
+The full license text is in the LICENSE file.

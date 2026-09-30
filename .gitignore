@@ -1,0 +1,33 @@
+# Build directories
+build/
+build-*/
+out/
+Testing/
+cmake-build-*/
+
+# Install trees produced by validation runs
+_install/
+_install-*/
+_stage/
+
+# Fresh-clone validation trees and downstream consumer scratch space
+_clone-check/
+_consumer-check/
+_consumer-build/
+_consumer-*/
+
+# Benchmark and validation debris
+bench-results/
+bench-*.txt
+*.log
+*.tmp
+*.tregstate
+*.treg
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+Desktop.ini
