@@ -1,8 +1,7 @@
 # Tenant Registry
 
-Tenant Registry is the canonical facility-level tenancy registry of the Data
-Center Control Plane (DCCP), Tranche 6: Facility Policy, Tenancy, and
-Entitlement. It answers one question and refuses to answer any other:
+Tenant Registry is the canonical facility-level tenancy registry.
+It answers one question and refuses to answer any other:
 
 > Which facility tenancy identities exist, in which isolation domains, under
 > which ownership and service relationships, in which lifecycle state and
